@@ -42,7 +42,7 @@ const App: React.FC = () => {
   const getYear = (): number => {
     const d = new Date();
     return d.getFullYear();
-  }
+  };
 
   return (
     <Fragment>
